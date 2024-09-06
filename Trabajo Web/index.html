@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./estilo.css">
+
+    <style>
+        .circulo {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: burlywood;
+        }
+        .form-inline {
+            padding: 5%px;
+            border: 5px;
+            display: flex;
+                     
+            
+        }
+
+      
+    </style>
+
+    <style>
+      .rc {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins" sans-serif
+        width: 100px;
+        padding: 20px 120px;
+        background: yellow;
+        top: 0;
+        left; 0;
+        display: flex;
+        justify-content: space-between;
+        align.items: center;
+        z-index: 100;
+      }
+
+      .rc logo {
+        font-size: 20ppx;
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+        margin-left: 20px;
+
+      }
+      
+
+      .rc nav {
+        font-size: 18px;
+        color: red;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+      }
+    </style>
+    
+      .jc {
+        max-width: 900px;
+        margin: auto;
+        background-color: blue;
+        font-size: 20px;
+        margin-top: 50px;
+
+      }
+    <style>
+
+    </style>
+    
+</head>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">Columna 1</div>
+            <div class="col-4">Columna 2</div>
+            <div class="col-4">Columna 3</div>
+        </div>
+    </div>    
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">Columna 1</div>
+            <div class="col-3">Columna 2</div>
+            <div class="col-3">Columna 3</div>
+        </div>
+    </div>
+        <hr>
+    </div>
+
+   <div class="container">              
+        <div class="row" ">
+            <div class="col-sm-12 col-xl-6" style="background-color: red;">
+                 <h1>Columna 1</h1>
+            </div>
+            <div class="col-sm-12 col-xl-6" style="background-color: blue;">
+                <h1>Columna 2</h1>
+            </div>        
+        </div>
+   </div>
+    <hr>
+    <div class="container">              
+        <div class="row" ">
+            <div class="col-lg-6">
+                <h1>Columna 1</h1>
+                <div class="row">
+                    <div class=" col-md-6">
+                        <h1>columna 2</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <h1>columna 3</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <hr>
+    <div class="container">              
+        <div class="row" ">
+            <div class="offset-3 col-xl-12" style="background-color: yellow;">
+                 <h1>Columna 1</h1>
+            </div>                  
+        </div>
+   </div>
+   <hr>
+   <table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Raúl</td>
+            <td>Garcia</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>2</td>
+            <td>Maria</td>
+            <td>Flores</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>3</td>
+            <td>Jose</td>
+            <td>Torres</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>4</td>
+            <td>Pedro</td>
+            <td>Vazques</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>5</td>
+            <td>Roberto</td>
+            <td>Saldaña</td>
+        </tr>
+    </tbody>
+</table>
+    <hr>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Last name</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Marco</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Last name</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry the Bird</td>
+        <td>Rich</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Last name</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry the Bird</td>
+        <td>Rich</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+    <hr>
+<div class="container">
+    <div class="table-resposive-lg">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Dirección</th>
+                    <th>Teléfono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Raúl</td>
+                    <td>Garcia</td>
+                    <td>Los Jazmines</td>
+                    <td>017652348</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Maria</td>
+                    <td>Flores</td>
+                    <td>Plaza Real</td>
+                    <td>015421889</td>
+                </tr>
+                <tr>
+                <td>3</td>
+                <td>Jose</td>
+                <td>Torres</td>
+                <td>Av Ramón castilla</td>
+                <td>016534210</td>
+                
+                </tr> 
+            </tbody>     
+        </table>
+    </div>
+  </div>
+    <hr>
+</body>
+    <div>
+        <button type="button" class="btn">Botones clasicos</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        
+        <button type="button" class="btn btn-link">Link</button>
+    </div>
+        <hr>
+    <div class="d-grid gap-2">
+        <button class="btn btn-primary" type="button">Botones de bloque</button>
+        <button class="btn btn-primary" type="button">Button</button>
+      </div>
+        <hr>
+
+    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+    <button type="button" class="btn btn-primary btn-sm">Boton pequeñon</button>
+    <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+        <hr>
+
+    <ul class="list-group">
+        <li class="list-group">.list-group</li>
+        <li class="list-group">Jeraquizando niveles 1</li>
+        <li class="list-group">Jeraquizando niveles 2</li>
+        <li class="list-group">Jeraquizando niveles 3</li>
+        <li class="list-group">Jeraquizando niveles 4</li>
+    </ul>
+
+    <ul class="list-group">
+        <li class="list-group-item">.list-group-item</li>
+        <li class="list-group-item">Jeraquizando niveles 1</li>
+        <li class="list-group-item">Jeraquizando niveles 2</li>
+        <li class="list-group-item">Jeraquizando niveles 3</li>
+        <li class="list-group-item">Jeraquizando niveles 4</li>
+    </ul>
+        <hr>
+
+    <ul class="list-group">
+        <li class="list-group-item active" aria-current="true">An active item</li>
+        <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
+        <li>Normal element</li>
+    </ul>
+        <hr>
+    
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">A simple default list group item</a>
+      
+        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+    </div>
+        <hr>
+    <div class="container">
+
+    <img src="./Foto/Jeep Wrangler.jpg" class="img-fluid" alt="imagen adaptable" />
+    </div>
+        <hr>
+
+     <div class="container">
+        <img src="./Foto/Renegade.png" class="circulo" alt=""/>        
+     </div>
+        <hr>
+
+     <div class="alert alert-success" role="alert">
+        Alerta-success-check it out!
+     </div>
+     <div class="alert alert-danger" role="alert">
+        Alerta-danger-check it out!
+     </div>
+
+     <div class="alert alert-warning" role="alert">
+        Alerta- warning—check it out!
+     </div>
+     <div class="alert alert-info" role="alert">
+        Alerta- info—check it out!
+    </div>
+        <hr> 
+     
+    <div id="liveAlertPlaceholder"></div>
+        <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+            <hr>
+
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Names</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Email address</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+                
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form> 
+        <hr>
+
+    <div class="container" > 
+        
+            <form class="form-inline">               
+
+                     <input  type="search"  class="form-control ml-5" placeholder="Nombre">
+                    <input type="search" class="form-control ml-1" placeholder="Dirección">
+                    <button type="button" class="btn btn-success form-control ml-2">search</button>
+                </div>
+        
+        </form>
+    </div>
+
+
+<form class="row p-5 row-cols-sm-auto g-3 
+             border text-bg-success mt-4 
+             align-items-center">
+    <div class="col-1">
+        <div class="input-group">
+            <input type="text" 
+                   class="form-control" 
+                   placeholder="Email">
+        </div>
+    </div>
+    <div class="col-2">
+        <div class="input-group">
+            <input type="text" class="form-control"
+                   placeholder="
+                   Contact number">
+        </div>
+    </div>
+    <div class="col-3 ">
+        <div class="form-check text-bg-primary">
+            <input class="form-check-input" 
+                   type="checkbox" id="Check">
+            <label class="form-check-label" 
+                   for="FormCheck1">
+                Correct
+            </label>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="input-group">
+            <input type="text" class="form-control"
+                   placeholder="Captcha">
+        </div>
+    </div>
+</form>
+    <hr>
+
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+      <hr>
+
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://www.google.com.pe/?hl=es" target="_blank">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.nvidia.com/es-la/" target="_blank">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.zegel.edu.pe/" target="_blank">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+        <hr>
+
+        
+        <hr>
+         
+        <p class="d-inline-flex gap-1">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+        </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse"          id="multiCollapseExample1">
+                <div class="card card-body">
+                  Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+            </div>
+          </div>
+            <hr>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+
+            <hr>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+           
+   <hr>
+
+  <!-- Example split danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger">Action</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+</div>
+  <hr>
+
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Regular link</a></li>
+        <li><a class="dropdown-item active" href="#" aria-current="true">Active link</a></li>
+        <li><a class="dropdown-item" href="#">Another link</a></li>
+    </ul>
+
+    <hr>
+   
+    <header class="rc">
+      <div class="logo">
+        <a href="#" class="logo">ActiveLink.</a>
+      </div>
+      <nav>
+        <a href="#Home">Home</a>
+        <a href="#Abaut">Abaut</a>
+        <a href="#Service">Service/a>
+        <a href="#Porfolio">Porfolio</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
